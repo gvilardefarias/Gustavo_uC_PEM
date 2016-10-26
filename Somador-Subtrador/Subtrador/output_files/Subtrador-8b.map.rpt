@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Subtrador-8b
-Tue Oct 25 18:38:58 2016
+Wed Oct 26 13:35:21 2016
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 25 18:38:58 2016            ;
+; Analysis & Synthesis Status        ; Successful - Wed Oct 26 13:35:21 2016            ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; Subtrador-8b                                     ;
 ; Top-level Entity Name              ; Subtrador-8b                                     ;
@@ -260,7 +260,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Oct 25 18:38:56 2016
+    Info: Processing started: Wed Oct 26 13:35:18 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Subtrador-8b -c Subtrador-8b
 Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
 Info (12021): Found 1 design units, including 1 entities, in source file Subtrador-8b.bdf
@@ -280,9 +280,9 @@ Info (21057): Implemented 41 device resources after synthesis - the final resour
     Info (21059): Implemented 9 output pins
     Info (21061): Implemented 16 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 350 megabytes
-    Info: Processing ended: Tue Oct 25 18:38:58 2016
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 349 megabytes
+    Info: Processing ended: Wed Oct 26 13:35:21 2016
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 
 

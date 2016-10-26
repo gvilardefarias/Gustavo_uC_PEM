@@ -1,5 +1,5 @@
 Assembler report for Subtrador-8b
-Tue Oct 25 18:39:12 2016
+Wed Oct 26 13:35:34 2016
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -35,7 +35,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Tue Oct 25 18:39:12 2016 ;
+; Assembler Status      ; Successful - Wed Oct 26 13:35:34 2016 ;
 ; Revision Name         ; Subtrador-8b                          ;
 ; Top-level Entity Name ; Subtrador-8b                          ;
 ; Family                ; Cyclone IV E                          ;
@@ -81,12 +81,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Assembler
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Tue Oct 25 18:39:11 2016
+    Info: Processing started: Wed Oct 26 13:35:33 2016
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Subtrador-8b -c Subtrador-8b
 Warning (292011): Can't generate programming files because you are currently using the Quartus II software in Evaluation Mode
 Info: Quartus II 32-bit Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 304 megabytes
-    Info: Processing ended: Tue Oct 25 18:39:12 2016
+    Info: Processing ended: Wed Oct 26 13:35:34 2016
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
