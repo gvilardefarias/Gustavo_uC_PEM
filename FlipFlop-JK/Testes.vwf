@@ -1,3 +1,4 @@
+/* Simulator = Quartus II Simulator */
 /*
 WARNING: Do NOT edit the input and output ports in this file in a text
 editor if you plan to continue editing the block that represents it in
@@ -72,6 +73,16 @@ SIGNAL("K")
 	PARENT = "";
 }
 
+SIGNAL("Clr")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 TRANSITION_LIST("Clk")
 {
 	NODE
@@ -113,6 +124,17 @@ TRANSITION_LIST("K")
 	}
 }
 
+TRANSITION_LIST("Clr")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 60.0;
+		LEVEL 1 FOR 25.0;
+		LEVEL 0 FOR 115.0;
+	}
+}
+
 DISPLAY_LINE
 {
 	CHANNEL = "Clk";
@@ -124,7 +146,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "J";
+	CHANNEL = "Clr";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 1;
@@ -133,7 +155,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "K";
+	CHANNEL = "J";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 2;
@@ -142,10 +164,19 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Q";
+	CHANNEL = "K";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Q";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
 	TREE_LEVEL = 0;
 }
 
