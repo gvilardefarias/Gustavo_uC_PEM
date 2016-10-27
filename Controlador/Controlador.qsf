@@ -42,11 +42,15 @@ set_global_assignment -name TOP_LEVEL_ENTITY Controlador
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:05:35  OCTOBER 27, 2016"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name BSF_FILE "Contador-Anel/Contador-Anel.bsf"
-set_global_assignment -name BDF_FILE "Contador-Anel/Contador-Anel.bdf"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BSF_FILE "Ciclo-Execucao/MUX.bsf"
+set_global_assignment -name BDF_FILE "Ciclo-Execucao/MUX.bdf"
+set_global_assignment -name BSF_FILE "Ciclo-Execucao/Ciclo-Execucao.bsf"
+set_global_assignment -name BDF_FILE "Ciclo-Execucao/Ciclo-Execucao.bdf"
+set_global_assignment -name BSF_FILE "Contador-Anel/Contador-Anel.bsf"
+set_global_assignment -name BDF_FILE "Contador-Anel/Contador-Anel.bdf"
 set_global_assignment -name BDF_FILE Controlador.bdf
