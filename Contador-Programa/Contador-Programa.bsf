@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 112 144)
+	(rect 16 16 136 144)
 	(text "Contador-Programa" (rect 5 0 118 13)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 113 26 124)(font "Arial" ))
 	(port
@@ -40,8 +40,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "Clr" (rect 0 0 17 13)(font "Arial" (font_size 8)))
-		(text "Clr" (rect 21 59 38 72)(font "Arial" (font_size 8)))
+		(text "ClrN" (rect 0 0 25 13)(font "Arial" (font_size 8)))
+		(text "ClrN" (rect 21 59 46 72)(font "Arial" (font_size 8)))
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
@@ -52,34 +52,13 @@ applicable agreement for further details.
 		(line (pt 0 80)(pt 16 80))
 	)
 	(port
-		(pt 96 32)
+		(pt 120 32)
 		(output)
-		(text "s[0]" (rect 0 0 22 13)(font "Arial" (font_size 8)))
-		(text "s[0]" (rect 53 27 75 40)(font "Arial" (font_size 8)))
-		(line (pt 96 32)(pt 80 32))
-	)
-	(port
-		(pt 96 48)
-		(output)
-		(text "s[1]" (rect 0 0 22 13)(font "Arial" (font_size 8)))
-		(text "s[1]" (rect 53 43 75 56)(font "Arial" (font_size 8)))
-		(line (pt 96 48)(pt 80 48))
-	)
-	(port
-		(pt 96 64)
-		(output)
-		(text "s[3]" (rect 0 0 22 13)(font "Arial" (font_size 8)))
-		(text "s[3]" (rect 53 59 75 72)(font "Arial" (font_size 8)))
-		(line (pt 96 64)(pt 80 64))
-	)
-	(port
-		(pt 96 80)
-		(output)
-		(text "s[2]" (rect 0 0 22 13)(font "Arial" (font_size 8)))
-		(text "s[2]" (rect 53 75 75 88)(font "Arial" (font_size 8)))
-		(line (pt 96 80)(pt 80 80))
+		(text "S[3..0]" (rect 0 0 37 13)(font "Arial" (font_size 8)))
+		(text "S[3..0]" (rect 62 27 99 40)(font "Arial" (font_size 8)))
+		(line (pt 120 32)(pt 104 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 80 112))
+		(rectangle (rect 16 16 104 112))
 	)
 )

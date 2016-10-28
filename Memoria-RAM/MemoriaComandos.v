@@ -87,9 +87,9 @@ module MemoriaComandos (
 		altsyncram_component.clock_enable_input_a = "BYPASS",
 		altsyncram_component.clock_enable_output_a = "BYPASS",
 `ifdef NO_PLI
-		altsyncram_component.init_file = "../../Comandos-Memoria.rif"
+		altsyncram_component.init_file = "Comandos-Memoria.rif"
 `else
-		altsyncram_component.init_file = "../../Comandos-Memoria.hex"
+		altsyncram_component.init_file = "Comandos-Memoria.hex"
 `endif
 ,
 		altsyncram_component.intended_device_family = "Cyclone IV E",
@@ -126,7 +126,7 @@ endmodule
 // Retrieval info: PRIVATE: JTAG_ENABLED NUMERIC "0"
 // Retrieval info: PRIVATE: JTAG_ID STRING "NONE"
 // Retrieval info: PRIVATE: MAXIMUM_DEPTH NUMERIC "0"
-// Retrieval info: PRIVATE: MIFfilename STRING "../../Comandos-Memoria.hex"
+// Retrieval info: PRIVATE: MIFfilename STRING "Comandos-Memoria.hex"
 // Retrieval info: PRIVATE: NUMWORDS_A NUMERIC "32"
 // Retrieval info: PRIVATE: RAM_BLOCK_TYPE NUMERIC "0"
 // Retrieval info: PRIVATE: RegAddr NUMERIC "1"
@@ -141,7 +141,7 @@ endmodule
 // Retrieval info: CONSTANT: ADDRESS_ACLR_A STRING "NONE"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_INPUT_A STRING "BYPASS"
 // Retrieval info: CONSTANT: CLOCK_ENABLE_OUTPUT_A STRING "BYPASS"
-// Retrieval info: CONSTANT: INIT_FILE STRING "../../Comandos-Memoria.hex"
+// Retrieval info: CONSTANT: INIT_FILE STRING "Comandos-Memoria.hex"
 // Retrieval info: CONSTANT: INTENDED_DEVICE_FAMILY STRING "Cyclone IV E"
 // Retrieval info: CONSTANT: LPM_HINT STRING "ENABLE_RUNTIME_MOD=NO"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "altsyncram"
@@ -163,7 +163,7 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos.inc FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos.cmp FALSE
-// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos.bsf TRUE FALSE
+// Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos.bsf TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos_inst.v FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL MemoriaComandos_bb.v TRUE
 // Retrieval info: LIB_FILE: altera_mf
