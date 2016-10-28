@@ -119,7 +119,7 @@ applicable agreement for further details.
 	(input)
 	(rect 8 768 176 784)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "OUT" (rect 5 0 30 11)(font "Arial" ))
+	(text "OUT" (rect 5 0 29 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1750,11 +1750,6 @@ applicable agreement for further details.
 	(pt 488 720)
 )
 (connector
-	(text "SUB" (rect 248 723 259 747)(font "Arial" )(vertical))
-	(pt 264 712)
-	(pt 264 760)
-)
-(connector
 	(pt 328 600)
 	(pt 376 600)
 )
@@ -1839,12 +1834,9 @@ applicable agreement for further details.
 	(pt 488 552)
 )
 (connector
+	(text "SUB" (rect 204 696 228 707)(font "Arial" ))
+	(pt 248 712)
 	(pt 176 712)
-	(pt 248 712)
-)
-(connector
-	(pt 248 712)
-	(pt 264 712)
 )
 (junction (pt 936 264))
 (junction (pt 936 40))
@@ -1887,4 +1879,3 @@ applicable agreement for further details.
 (junction (pt 328 632))
 (junction (pt 336 584))
 (junction (pt 320 552))
-(junction (pt 248 712))

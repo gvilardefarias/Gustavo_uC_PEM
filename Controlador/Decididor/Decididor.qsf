@@ -18,14 +18,14 @@
 #
 # Quartus II 32-bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-# Date created = 01:05:35  October 27, 2016
+# Date created = 19:50:19  October 27, 2016
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Controlador_assignment_defaults.qdf
+#		Decididor_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -38,32 +38,17 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE6E22A7
-set_global_assignment -name TOP_LEVEL_ENTITY Controlador
+set_global_assignment -name TOP_LEVEL_ENTITY Decididor
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:05:35  OCTOBER 27, 2016"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:50:19  OCTOBER 27, 2016"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE Decididor.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name BSF_FILE "Ciclo-Busca/Ciclo-Busca.bsf"
-set_global_assignment -name BDF_FILE "Ciclo-Busca/Ciclo-Busca.bdf"
-set_global_assignment -name BSF_FILE "../FlipFlop-D/FlipFLop-DRS.bsf"
-set_global_assignment -name BDF_FILE "../FlipFlop-D/FlipFLop-DRS.bdf"
-set_global_assignment -name BSF_FILE Decididor/Decididor.bsf
-set_global_assignment -name BDF_FILE Decididor/Decididor.bdf
-set_global_assignment -name BSF_FILE "Ciclo-Execucao/MUX.bsf"
-set_global_assignment -name BDF_FILE "Ciclo-Execucao/MUX.bdf"
-set_global_assignment -name BSF_FILE "Ciclo-Execucao/Ciclo-Execucao.bsf"
-set_global_assignment -name BDF_FILE "Ciclo-Execucao/Ciclo-Execucao.bdf"
-set_global_assignment -name BSF_FILE "Contador-Anel/Contador-Anel.bsf"
-set_global_assignment -name BDF_FILE "Contador-Anel/Contador-Anel.bdf"
-set_global_assignment -name BDF_FILE Controlador.bdf
-set_global_assignment -name VECTOR_WAVEFORM_FILE "Ciclo-Busca/Testes.vwf"
-set_global_assignment -name SIMULATION_MODE FUNCTIONAL
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE "/home/gustavo/Documentos/Programming/PEM/Micropocessador/Gustavo_uC_PEM/Controlador/Ciclo-Busca/Testes.vwf"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
