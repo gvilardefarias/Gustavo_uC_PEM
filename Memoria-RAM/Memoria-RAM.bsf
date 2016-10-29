@@ -26,8 +26,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "Ce" (rect 0 0 17 13)(font "Arial" (font_size 8)))
-		(text "Ce" (rect 21 27 38 40)(font "Arial" (font_size 8)))
+		(text "CeN" (rect 0 0 25 13)(font "Arial" (font_size 8)))
+		(text "CeN" (rect 21 27 46 40)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
