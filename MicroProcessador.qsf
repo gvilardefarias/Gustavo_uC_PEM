@@ -52,6 +52,10 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulati
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name QIP_FILE "Memoria-RAM/MemoriaComandos.qip"
+set_global_assignment -name QIP_FILE "Memoria-RAM/MemoriaDados.qip"
+set_global_assignment -name BSF_FILE "Memoria-RAM/Memoria-RAM.bsf"
+set_global_assignment -name BDF_FILE "Memoria-RAM/Memoria-RAM.bdf"
 set_global_assignment -name BDF_FILE "Registrador-Saida/Registrador-Saida.bdf"
 set_global_assignment -name BSF_FILE "Registrador-Saida/Registrador-Saida.bsf"
 set_global_assignment -name HEX_FILE "Dados-Memoria.hex"
@@ -76,12 +80,6 @@ set_global_assignment -name BSF_FILE RegistradorB/RegistradorB.bsf
 set_global_assignment -name BDF_FILE RegistradorB/RegistradorB.bdf
 set_global_assignment -name BDF_FILE "Registrador-de-Instruces/Registrador-de-Instrucoes.bdf"
 set_global_assignment -name BSF_FILE "Registrador-de-Instruces/Registrador-de-Instrucoes.bsf"
-set_global_assignment -name QIP_FILE "Memoria-RAM/MemoriaDados.qip"
-set_global_assignment -name BSF_FILE "Memoria-RAM/MemoriaDados.bsf"
-set_global_assignment -name QIP_FILE "Memoria-RAM/MemoriaComandos.qip"
-set_global_assignment -name BSF_FILE "Memoria-RAM/MemoriaComandos.bsf"
-set_global_assignment -name BSF_FILE "Memoria-RAM/Memoria-RAM.bsf"
-set_global_assignment -name BDF_FILE "Memoria-RAM/Memoria-RAM.bdf"
 set_global_assignment -name BSF_FILE "FlipFlop-JK/FlipFlop-JK.bsf"
 set_global_assignment -name BDF_FILE "FlipFlop-JK/FlipFlop-JK.bdf"
 set_global_assignment -name BSF_FILE "FlipFlop-D/FlipFLop-DRS.bsf"

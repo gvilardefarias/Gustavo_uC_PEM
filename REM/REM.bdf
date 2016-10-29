@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -160 80 8 96)
+	(rect -160 96 8 112)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Dados[4..0]" (rect 5 0 61 11)(font "Arial" ))
+	(text "Ep" (rect 5 0 20 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -69,9 +69,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -160 96 8 112)
+	(rect -160 80 8 96)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Ep" (rect 5 0 20 11)(font "Arial" ))
+	(text "Dados[7..0]" (rect 5 0 61 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -211,7 +211,7 @@ applicable agreement for further details.
 (symbol
 	(rect 128 112 160 144)
 	(text "GND" (rect 6 8 16 30)(font "Arial" (font_size 6))(vertical))
-	(text "inst5" (rect 0 3 11 27)(font "Arial" )(vertical)(invisible))
+	(text "inst5" (rect 1 2 12 26)(font "Arial" )(vertical)(invisible))
 	(port
 		(pt 32 16)
 		(output)
@@ -379,17 +379,8 @@ applicable agreement for further details.
 	(pt 136 200)
 )
 (connector
-	(pt 136 184)
-	(pt 104 184)
-)
-(connector
 	(pt 8 184)
 	(pt 56 184)
-)
-(connector
-	(text "Dado[0]" (rect 256 160 294 171)(font "Arial" ))
-	(pt 280 176)
-	(pt 256 176)
 )
 (connector
 	(pt 200 192)
@@ -398,10 +389,6 @@ applicable agreement for further details.
 (connector
 	(pt 264 192)
 	(pt 280 192)
-)
-(connector
-	(pt 280 128)
-	(pt 280 160)
 )
 (connector
 	(text "Dado[1]" (rect 440 160 478 171)(font "Arial" ))
@@ -415,10 +402,6 @@ applicable agreement for further details.
 (connector
 	(pt 264 256)
 	(pt 464 256)
-)
-(connector
-	(pt 160 128)
-	(pt 280 128)
 )
 (connector
 	(pt 464 128)
@@ -436,10 +419,6 @@ applicable agreement for further details.
 (connector
 	(pt 464 256)
 	(pt 656 256)
-)
-(connector
-	(pt 280 128)
-	(pt 464 128)
 )
 (connector
 	(pt 656 128)
@@ -461,12 +440,6 @@ applicable agreement for further details.
 (connector
 	(pt 872 128)
 	(pt 872 160)
-)
-(connector
-	(text "Dado[4..0]" (rect 8 72 58 83)(font "Arial" ))
-	(pt 8 88)
-	(pt 48 88)
-	(bus)
 )
 (connector
 	(pt 656 256)
@@ -553,11 +526,42 @@ applicable agreement for further details.
 	(pt 1152 280)
 	(bus)
 )
+(connector
+	(text "Dado[0]" (rect 248 160 286 171)(font "Arial" ))
+	(pt 280 176)
+	(pt 248 176)
+)
+(connector
+	(pt 280 160)
+	(pt 272 160)
+)
+(connector
+	(pt 272 128)
+	(pt 272 160)
+)
+(connector
+	(pt 160 128)
+	(pt 272 128)
+)
+(connector
+	(pt 272 128)
+	(pt 464 128)
+)
+(connector
+	(pt 104 184)
+	(pt 136 184)
+)
+(connector
+	(text "Dado[7..0]" (rect 44 72 94 83)(font "Arial" ))
+	(pt 72 88)
+	(pt 8 88)
+	(bus)
+)
 (junction (pt 656 256))
 (junction (pt 464 256))
 (junction (pt 264 192))
-(junction (pt 280 128))
 (junction (pt 464 128))
 (junction (pt 656 128))
 (junction (pt 872 256))
 (junction (pt 872 128))
+(junction (pt 272 128))
