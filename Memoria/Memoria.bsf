@@ -20,9 +20,9 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 176 144)
-	(text "Memoria-RAM" (rect 5 0 87 13)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 113 26 124)(font "Arial" ))
+	(rect 16 16 176 112)
+	(text "Memoria" (rect 5 0 55 13)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 81 26 92)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -40,16 +40,9 @@ applicable agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "Ep" (rect 0 0 17 13)(font "Arial" (font_size 8)))
-		(text "Ep" (rect 21 59 38 72)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64))
-	)
-	(port
-		(pt 0 80)
-		(input)
 		(text "Clk" (rect 0 0 21 13)(font "Arial" (font_size 8)))
-		(text "Clk" (rect 21 75 42 88)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 16 80))
+		(text "Clk" (rect 21 59 42 72)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
 	)
 	(port
 		(pt 160 32)
@@ -59,6 +52,6 @@ applicable agreement for further details.
 		(line (pt 160 32)(pt 144 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 144 112))
+		(rectangle (rect 16 16 144 80))
 	)
 )

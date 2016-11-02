@@ -18,13 +18,13 @@
 #
 # Quartus II 32-bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-# Date created = 14:51:45  October 29, 2016
+# Date created = 15:01:39  November 02, 2016
 #
 # -------------------------------------------------------------------------- #
 
 QUARTUS_VERSION = "13.0"
-DATE = "14:51:45  October 29, 2016"
+DATE = "15:01:39  November 02, 2016"
 
 # Revisions
 
-PROJECT_REVISION = "Memoria-RAM"
+PROJECT_REVISION = "Memoria"
