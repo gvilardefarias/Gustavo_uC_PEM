@@ -1113,16 +1113,6 @@ applicable agreement for further details.
 	(pt 2056 272)
 )
 (connector
-	(pt 2400 96)
-	(pt 2424 96)
-	(bus)
-)
-(connector
-	(pt 2400 112)
-	(pt 2424 112)
-	(bus)
-)
-(connector
 	(pt 2064 336)
 	(pt 2064 272)
 )
@@ -1218,9 +1208,21 @@ applicable agreement for further details.
 	(pt 2296 320)
 )
 (connector
-	(text "SW[7]" (rect 2357 284 2368 314)(font "Arial" )(vertical))
+	(text "SW[7]" (rect 2355 282 2366 312)(font "Arial" )(vertical))
 	(pt 2376 272)
 	(pt 2376 320)
+)
+(connector
+	(text "S[3..0]" (rect 2394 80 2425 91)(font "Arial" ))
+	(pt 2376 96)
+	(pt 2424 96)
+	(bus)
+)
+(connector
+	(text "SW[7..0]" (rect 2386 96 2428 107)(font "Arial" ))
+	(pt 2376 112)
+	(pt 2424 112)
+	(bus)
 )
 (junction (pt 688 224))
 (junction (pt 488 160))

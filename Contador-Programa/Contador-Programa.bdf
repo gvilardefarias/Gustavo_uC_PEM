@@ -934,7 +934,8 @@ applicable agreement for further details.
 	(pt 1096 312)
 )
 (connector
-	(pt 1416 216)
+	(text "S[7..0]" (rect 1412 200 1443 211)(font "Arial" ))
+	(pt 1392 216)
 	(pt 1448 216)
 	(bus)
 )

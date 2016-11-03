@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect -48 200 120 216)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Inst[3..0]" (rect 5 0 47 11)(font "Arial" ))
+	(text "Ins[3..0]" (rect 5 0 46 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1372,11 +1372,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 120 208)
-	(pt 144 208)
-	(bus)
-)
-(connector
 	(pt 464 80)
 	(pt 464 40)
 )
@@ -2025,6 +2020,12 @@ applicable agreement for further details.
 	(text "HLT" (rect 1078 40 1100 51)(font "Arial" ))
 	(pt 1104 56)
 	(pt 1088 56)
+)
+(connector
+	(text "Inst[3..0]" (rect 136 192 178 203)(font "Arial" ))
+	(pt 120 208)
+	(pt 144 208)
+	(bus)
 )
 (junction (pt 536 216))
 (junction (pt 552 200))

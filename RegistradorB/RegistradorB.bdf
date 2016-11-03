@@ -705,6 +705,7 @@ applicable agreement for further details.
 	(pt 1984 328)
 )
 (connector
+	(text "S[7..0]" (rect 2089 376 2120 387)(font "Arial" ))
 	(pt 2112 392)
 	(pt 2072 392)
 	(bus)

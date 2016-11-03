@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect 72 288 240 304)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Su" (rect 5 0 21 11)(font "Arial" ))
+	(text "Su" (rect 5 0 20 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 72 272 240 288)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Eu" (rect 5 0 21 11)(font "Arial" ))
+	(text "Eu" (rect 5 0 20 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -2018,6 +2018,12 @@ applicable agreement for further details.
 	(text "S[7]" (rect 659 1008 679 1019)(font "Arial" ))
 	(pt 672 1024)
 	(pt 640 1024)
+)
+(connector
+	(text "S[7..0]" (rect 588 136 619 147)(font "Arial" ))
+	(pt 608 152)
+	(pt 560 152)
+	(bus)
 )
 (junction (pt 280 136))
 (junction (pt 296 152))

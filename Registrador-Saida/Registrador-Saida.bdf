@@ -39,7 +39,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 96 160 112)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Clk" (rect 5 0 23 11)(font "Arial" ))
+	(text "Clk" (rect 5 0 22 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -55,7 +55,7 @@ applicable agreement for further details.
 	(input)
 	(rect -8 48 160 64)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Dados[7..0]" (rect 5 0 62 11)(font "Arial" ))
+	(text "Dados[7..0]" (rect 5 0 61 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -660,6 +660,7 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
+	(text "S[7..0]" (rect 628 40 659 51)(font "Arial" ))
 	(pt 600 56)
 	(pt 648 56)
 	(bus)
