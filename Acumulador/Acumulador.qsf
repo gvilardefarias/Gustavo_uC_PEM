@@ -51,7 +51,7 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name BSF_FILE "../FlipFlop-D/FlipFlop-D.bsf"
 set_global_assignment -name BDF_FILE "../FlipFlop-D/FlipFlop-D.bdf"
 set_global_assignment -name BDF_FILE Acumulador.bdf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE Testes.vwf
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE /home/gustavo/Documentos/Programming/PEM/Micropocessador/Projeto/Acumulador/Testes.vwf
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
