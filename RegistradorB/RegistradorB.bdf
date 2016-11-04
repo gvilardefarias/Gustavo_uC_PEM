@@ -71,7 +71,7 @@ applicable agreement for further details.
 	(input)
 	(rect 80 80 248 96)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Clr" (rect 5 0 21 11)(font "Arial" ))
+	(text "Clr" (rect 5 0 20 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -642,7 +642,7 @@ applicable agreement for further details.
 	(pt 1768 328)
 )
 (connector
-	(text "S[7]" (rect 1968 295 1979 315)(font "Arial" )(vertical))
+	(text "S[7]" (rect 1967 294 1978 314)(font "Arial" )(vertical))
 	(pt 1984 136)
 	(pt 1984 328)
 )
@@ -705,7 +705,15 @@ applicable agreement for further details.
 	(pt 896 88)
 )
 (connector
+	(pt 520 136)
+	(pt 520 88)
+)
+(connector
 	(pt 248 88)
+	(pt 520 88)
+)
+(connector
+	(pt 520 88)
 	(pt 704 88)
 )
 (junction (pt 704 232))
@@ -721,3 +729,4 @@ applicable agreement for further details.
 (junction (pt 1280 88))
 (junction (pt 1472 88))
 (junction (pt 1664 88))
+(junction (pt 520 88))

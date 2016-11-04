@@ -328,11 +328,9 @@ TRANSITION_LIST("Clk")
 	NODE
 	{
 		REPEAT = 1;
-		LEVEL 0 FOR 15.0;
-		LEVEL 1 FOR 5.0;
 		NODE
 		{
-			REPEAT = 28;
+			REPEAT = 30;
 			LEVEL 0 FOR 5.0;
 			LEVEL 1 FOR 5.0;
 		}
