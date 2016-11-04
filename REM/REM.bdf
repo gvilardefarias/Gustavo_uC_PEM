@@ -55,7 +55,23 @@ applicable agreement for further details.
 	(input)
 	(rect -160 120 8 136)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Dados[7..0]" (rect 5 0 61 11)(font "Arial" ))
+	(text "Clr" (rect 5 0 20 11)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 149 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -160 104 8 120)
+	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
+	(text "Dados[3..0]" (rect 5 0 62 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -175,24 +191,6 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 80 80))
 	)
-)
-(symbol
-	(rect 128 112 160 144)
-	(text "GND" (rect 6 8 16 30)(font "Arial" (font_size 6))(vertical))
-	(text "inst5" (rect 1 2 12 26)(font "Arial" )(vertical)(invisible))
-	(port
-		(pt 32 16)
-		(output)
-		(text "1" (rect 18 0 26 11)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 21 18 32 26)(font "Courier New" (bold))(vertical)(invisible))
-		(line (pt 24 16)(pt 32 16))
-	)
-	(drawing
-		(line (pt 24 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 24))
-		(line (pt 24 8)(pt 24 24))
-	)
-	(rotate270)
 )
 (symbol
 	(rect 464 128 560 224)
@@ -423,22 +421,8 @@ applicable agreement for further details.
 	(pt 272 160)
 )
 (connector
-	(pt 160 128)
-	(pt 272 128)
-)
-(connector
-	(pt 272 128)
-	(pt 464 128)
-)
-(connector
 	(pt 104 184)
 	(pt 136 184)
-)
-(connector
-	(text "Dado[7..0]" (rect 44 112 94 123)(font "Arial" ))
-	(pt 104 128)
-	(pt 8 128)
-	(bus)
 )
 (connector
 	(pt 656 256)
@@ -452,6 +436,20 @@ applicable agreement for further details.
 	(text "S[3..0]" (rect 1020 144 1051 155)(font "Arial" ))
 	(pt 1000 160)
 	(pt 1048 160)
+	(bus)
+)
+(connector
+	(pt 8 128)
+	(pt 272 128)
+)
+(connector
+	(pt 272 128)
+	(pt 464 128)
+)
+(connector
+	(text "Dado[3..0]" (rect 44 96 94 107)(font "Arial" ))
+	(pt 104 112)
+	(pt 8 112)
 	(bus)
 )
 (junction (pt 656 256))

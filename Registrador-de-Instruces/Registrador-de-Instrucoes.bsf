@@ -68,8 +68,8 @@ applicable agreement for further details.
 	(port
 		(pt 168 48)
 		(output)
-		(text "SW[7..0]" (rect 0 0 49 13)(font "Arial" (font_size 8)))
-		(text "SW[7..0]" (rect 98 43 147 56)(font "Arial" (font_size 8)))
+		(text "SW[3..0]" (rect 0 0 49 13)(font "Arial" (font_size 8)))
+		(text "SW[3..0]" (rect 98 43 147 56)(font "Arial" (font_size 8)))
 		(line (pt 168 48)(pt 152 48)(line_width 3))
 	)
 	(drawing
