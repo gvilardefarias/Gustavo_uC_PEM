@@ -21,9 +21,9 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 152 136 320 152)
+	(rect 160 120 328 136)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Clr" (rect 5 0 21 11)(font "Arial" ))
+	(text "Clr" (rect 5 0 20 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -37,9 +37,9 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 152 160 320 176)
+	(rect 160 136 328 152)
 	(text "INPUT" (rect 125 0 154 10)(font "Arial" (font_size 6)))
-	(text "Clk" (rect 5 0 23 11)(font "Arial" ))
+	(text "Clk" (rect 5 0 22 11)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -53,7 +53,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 632 136 808 152)
+	(rect 472 152 648 168)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
 	(text "S[7..0]" (rect 90 0 121 11)(font "Arial" ))
 	(pt 0 8)
@@ -69,9 +69,25 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 624 88 800 104)
+	(rect 472 120 648 136)
 	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
-	(text "Cp[3..0]" (rect 90 0 128 11)(font "Arial" ))
+	(text "X1[7..0]" (rect 90 0 128 11)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 472 136 648 152)
+	(text "OUTPUT" (rect 1 0 41 10)(font "Arial" (font_size 6)))
+	(text "Y1[7..0]" (rect 90 0 128 11)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -84,7 +100,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 360 112 480 208)
+	(rect 328 96 448 192)
 	(text "MicroProcessador" (rect 5 0 107 13)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 81 26 92)(font "Arial" ))
 	(port
@@ -104,64 +120,40 @@ applicable agreement for further details.
 	(port
 		(pt 120 32)
 		(output)
-		(text "Cp[3..0]" (rect 0 0 46 13)(font "Arial" (font_size 8)))
-		(text "Cp[3..0]" (rect 53 27 99 40)(font "Arial" (font_size 8)))
+		(text "X1[7..0]" (rect 0 0 44 13)(font "Arial" (font_size 8)))
+		(text "X1[7..0]" (rect 55 27 99 40)(font "Arial" (font_size 8)))
 		(line (pt 120 32)(pt 104 32)(line_width 3))
 	)
 	(port
 		(pt 120 48)
 		(output)
-		(text "S[7..0]" (rect 0 0 37 13)(font "Arial" (font_size 8)))
-		(text "S[7..0]" (rect 62 43 99 56)(font "Arial" (font_size 8)))
+		(text "Y1[7..0]" (rect 0 0 44 13)(font "Arial" (font_size 8)))
+		(text "Y1[7..0]" (rect 55 43 99 56)(font "Arial" (font_size 8)))
 		(line (pt 120 48)(pt 104 48)(line_width 3))
+	)
+	(port
+		(pt 120 64)
+		(output)
+		(text "S2[7..0]" (rect 0 0 44 13)(font "Arial" (font_size 8)))
+		(text "S2[7..0]" (rect 55 59 99 72)(font "Arial" (font_size 8)))
+		(line (pt 120 64)(pt 104 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 104 80))
 	)
 )
 (connector
-	(pt 360 144)
-	(pt 320 144)
-)
-(connector
-	(pt 352 160)
-	(pt 352 168)
-)
-(connector
-	(pt 360 160)
-	(pt 352 160)
-)
-(connector
-	(pt 352 168)
-	(pt 320 168)
-)
-(connector
-	(pt 608 144)
-	(pt 632 144)
+	(pt 448 128)
+	(pt 472 128)
 	(bus)
 )
 (connector
-	(pt 480 160)
-	(pt 608 160)
+	(pt 448 160)
+	(pt 472 160)
 	(bus)
 )
 (connector
-	(pt 608 160)
-	(pt 608 144)
-	(bus)
-)
-(connector
-	(pt 480 144)
-	(pt 560 144)
-	(bus)
-)
-(connector
-	(pt 560 96)
-	(pt 560 144)
-	(bus)
-)
-(connector
-	(pt 560 96)
-	(pt 624 96)
+	(pt 472 144)
+	(pt 448 144)
 	(bus)
 )

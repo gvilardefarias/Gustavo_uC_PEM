@@ -18,14 +18,14 @@
 #
 # Quartus II 32-bit
 # Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-# Date created = 20:41:19  November 03, 2016
+# Date created = 21:59:50  November 03, 2016
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		Test_assignment_defaults.qdf
+#		Teste_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -38,29 +38,19 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE6E22A7
-set_global_assignment -name TOP_LEVEL_ENTITY Test
+set_global_assignment -name TOP_LEVEL_ENTITY Teste
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:41:19  NOVEMBER 03, 2016"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "21:59:50  NOVEMBER 03, 2016"
 set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
-set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
-set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
-set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name BSF_FILE ../MicroProcessador.bsf
 set_global_assignment -name BDF_FILE ../MicroProcessador.bdf
 set_global_assignment -name BSF_FILE "../Somador-Subtrador/Somador-Subtrador.bsf"
 set_global_assignment -name BDF_FILE "../Somador-Subtrador/Somador-Subtrador.bdf"
-set_global_assignment -name BDF_FILE "../Somador-Subtrador/Subtrador/Subtrador-Completo.bdf"
 set_global_assignment -name BSF_FILE "../Somador-Subtrador/Subtrador/Subtrador-Completo.bsf"
 set_global_assignment -name BSF_FILE "../Somador-Subtrador/Subtrador/Subtrador-8b.bsf"
-set_global_assignment -name BDF_FILE "../Somador-Subtrador/Subtrador/Subtrador-8b.bdf"
 set_global_assignment -name BSF_FILE "../Somador-Subtrador/Subtrador/Meio-Subtrador.bsf"
+set_global_assignment -name BDF_FILE "../Somador-Subtrador/Subtrador/Subtrador-Completo.bdf"
+set_global_assignment -name BDF_FILE "../Somador-Subtrador/Subtrador/Subtrador-8b.bdf"
 set_global_assignment -name BDF_FILE "../Somador-Subtrador/Subtrador/Meio-Subtrador.bdf"
 set_global_assignment -name BSF_FILE "../Somador-Subtrador/SomadorCompleto/Somador-Completo.bsf"
 set_global_assignment -name BDF_FILE "../Somador-Subtrador/SomadorCompleto/Somador-Completo.bdf"
@@ -72,14 +62,14 @@ set_global_assignment -name BSF_FILE ../REM/REM.bsf
 set_global_assignment -name BDF_FILE ../REM/REM.bdf
 set_global_assignment -name BSF_FILE ../RegistradorB/RegistradorB.bsf
 set_global_assignment -name BDF_FILE ../RegistradorB/RegistradorB.bdf
-set_global_assignment -name BDF_FILE "../Registrador-Saida/Registrador-Saida.bdf"
 set_global_assignment -name BSF_FILE "../Registrador-Saida/Registrador-Saida.bsf"
+set_global_assignment -name BDF_FILE "../Registrador-Saida/Registrador-Saida.bdf"
 set_global_assignment -name BSF_FILE "../Registrador-de-Instruces/Registrador-de-Instrucoes.bsf"
 set_global_assignment -name BDF_FILE "../Registrador-de-Instruces/Registrador-de-Instrucoes.bdf"
 set_global_assignment -name QIP_FILE ../Memoria/MemoriaROM.qip
 set_global_assignment -name BSF_FILE ../Memoria/Memoria.bsf
-set_global_assignment -name BDF_FILE ../Memoria/Memoria.bdf
 set_global_assignment -name HEX_FILE ../Memoria/Dados.hex
+set_global_assignment -name BDF_FILE ../Memoria/Memoria.bdf
 set_global_assignment -name BSF_FILE "../FlipFlop-JK/FlipFlop-JK.bsf"
 set_global_assignment -name BDF_FILE "../FlipFlop-JK/FlipFlop-JK.bdf"
 set_global_assignment -name BSF_FILE "../FlipFlop-D/FlipFLop-DRS.bsf"
@@ -93,18 +83,28 @@ set_global_assignment -name BDF_FILE ../Controlador/Decididor/Decididor.bdf
 set_global_assignment -name BSF_FILE "../Controlador/Contador-Anel/Contador-Anel.bsf"
 set_global_assignment -name BDF_FILE "../Controlador/Contador-Anel/Contador-Anel.bdf"
 set_global_assignment -name BSF_FILE "../Controlador/Ciclo-Execucao/MUX.bsf"
-set_global_assignment -name BDF_FILE "../Controlador/Ciclo-Execucao/MUX.bdf"
 set_global_assignment -name BSF_FILE "../Controlador/Ciclo-Execucao/Ciclo-Execucao.bsf"
+set_global_assignment -name BDF_FILE "../Controlador/Ciclo-Execucao/MUX.bdf"
 set_global_assignment -name BDF_FILE "../Controlador/Ciclo-Execucao/Ciclo-Execucao.bdf"
 set_global_assignment -name BSF_FILE "../Controlador/Ciclo-Busca/Ciclo-Busca.bsf"
 set_global_assignment -name BDF_FILE "../Controlador/Ciclo-Busca/Ciclo-Busca.bdf"
 set_global_assignment -name BSF_FILE "../Contador-Programa/Contador-Programa.bsf"
 set_global_assignment -name BDF_FILE "../Contador-Programa/Contador-Programa.bdf"
-set_global_assignment -name BSF_FILE ../Acumulador/Acumulador.bsf
 set_global_assignment -name BDF_FILE ../Acumulador/Acumulador.bdf
-set_global_assignment -name BDF_FILE Test.bdf
+set_global_assignment -name BSF_FILE ../Acumulador/Acumulador.bsf
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP "-40"
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 125
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name BDF_FILE Teste.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name SIMULATION_MODE FUNCTIONAL
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE /home/gustavo/Documentos/Programming/PEM/Micropocessador/ok/Gustavo_uC_PEM/TEste/Waveform.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE /home/gustavo/Documentos/Programming/PEM/Micropocessador/ok/Gustavo_uC_PEM/Test/Waveform.vwf
